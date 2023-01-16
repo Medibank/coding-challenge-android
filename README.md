@@ -9,6 +9,7 @@ Create a proof of concept for an App that displays trend articles and allows the
 - **Sources**: screen to display the list of available sources for articles, the user should be able to select multiple sources and the selection should persist user sessions.
 - **Saved**: screen to display a list of previously saved headlines, tapping a row should open the article for reading, the same way as the Headlines screen.
 - User should be able to delete previously saved articles
+- Previously saved articles should persist app launches
 - Integrate the app with [https://newsapi.org/](https://newsapi.org/) API to fetch data (register to get your API Key)
 
 ## Key points under evaluation
@@ -22,6 +23,7 @@ Create a proof of concept for an App that displays trend articles and allows the
 - It is expected from the App to offer a good UX
 - ConstrainLayout
 - RxKotlin would be a big bonus
+- Unit testing, provide coverage of important areas in the code
 - Android Jetpack Architecture Components (viewModel, LiveData, navigation component, etc) would be a big bonus
 
 ## Points of consideration
