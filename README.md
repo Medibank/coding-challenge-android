@@ -34,4 +34,4 @@ Create a proof of concept for an App that displays trend articles and allows the
 
 ## Allocated time
 - Please provide submission no more than 3 days after received.
-- Submissions will only be accepted via GitHub or Bitbucket.
+- After finishing the project, kindly compress it and send it via email to your recruiter. Make sure to eliminate any redundant build or generated files, as they can significantly increase the size of the compressed file.
