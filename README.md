@@ -38,6 +38,10 @@ Create a proof of concept for an App that displays trending articles and allows 
 - Documentation of key architectural choices and code functionalities.
 - Use **Hilt** for dependency injection to manage dependencies cleanly and effectively.
 
+## Use of AI 
+- You are free to use any tools you like, including AI code generators such as ChatGPT or GitHub Copilot. We encourage you to work however you’re most comfortable. Just be sure you understand your final solution — we’ll review and discuss your choices together in a live code review.
+
+
 ## Points of Consideration
 - Pagination is not required, API will return only the latest 10 articles per source
 - Documentation for the API [https://newsapi.org/#documentation](https://newsapi.org/#documentation)
