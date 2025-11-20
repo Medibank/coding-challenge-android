@@ -9,12 +9,25 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import javax.inject.Inject
 
+/**
+ * UI state for the Headlines screen.
+ * 
+ * @property articles List of articles to display
+ * @property isLoading Whether data is currently being loaded
+ * @property error Error message if loading failed, null otherwise
+ */
 data class HeadlinesUiState(
     val articles: List<Article> = emptyList(),
     val isLoading: Boolean = false,
     val error: String? = null
 )
 
+/**
+ * ViewModel for the Headlines screen.
+ * Manages the state and business logic for displaying article headlines.
+ * 
+ * Currently loads sample data; will be connected to repository for API calls.
+ */
 @HiltViewModel
 class HeadlinesViewModel @Inject constructor() : ViewModel() {
     
@@ -25,6 +38,10 @@ class HeadlinesViewModel @Inject constructor() : ViewModel() {
         loadSampleData()
     }
     
+    /**
+     * Loads sample article data for demonstration.
+     * TODO: Replace with actual API call via repository
+     */
     private fun loadSampleData() {
         // Sample data for initial display
         val sampleArticles = listOf(
@@ -78,7 +95,13 @@ class HeadlinesViewModel @Inject constructor() : ViewModel() {
         _uiState.value = HeadlinesUiState(articles = sampleArticles)
     }
     
+    /**
+     * Saves an article for later reading.
+     * TODO: Implement Room database persistence
+     * 
+     * @param article The article to save
+     */
     fun saveArticle(article: Article) {
-        // TODO: Implement save functionality
+        // TODO: Implement save functionality with Room database
     }
 }

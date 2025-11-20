@@ -39,6 +39,14 @@ import coil.compose.AsyncImage
 import com.medibank.articlesheadlines.R
 import com.medibank.articlesheadlines.data.model.Article
 
+/**
+ * Headlines screen - the main landing screen of the app.
+ * Displays a list of article headlines with the ability to click to read or save for later.
+ * 
+ * @param viewModel The ViewModel managing this screen's state
+ * @param onArticleClick Callback when an article is clicked to read
+ */
+
 @Composable
 fun HeadlinesScreen(
     viewModel: HeadlinesViewModel = hiltViewModel(),
