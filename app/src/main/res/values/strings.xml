@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Articles Headlines</string>
+    <string name="headlines_tab">Headlines</string>
+    <string name="sources_tab">Sources</string>
+    <string name="saved_tab">Saved</string>
+    <string name="no_articles">No articles available</string>
+    <string name="save_article">Save Article</string>
+    <string name="article_saved">Article saved</string>
+    <string name="loading">Loading...</string>
+</resources>
